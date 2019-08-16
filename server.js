@@ -20,7 +20,7 @@ app.use(express.json({ extended: false }));
 
 // Default / Port
 app.get('/', (req, res) => {
-  res.send('News API Connected');
+  res.send('API Connectefdhjsdfhgsdd');
 });
 
 app.listen(PORT, () =>
