@@ -42,3 +42,7 @@ h5 {
     color: #FFFFFF;
     font-family: 'Orbitron', sans-serif;
 }
+
+.center {
+    text-align: center;
+}
