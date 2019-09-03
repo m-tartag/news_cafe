@@ -1,12 +1,16 @@
 import React, { Fragment } from 'react';
+import { Header, Landing } from './components/layouts'
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+
 
 const App = () => {
   return (
+    <Router>
     <Fragment>
-      <div>
-        <h1>News</h1>
-      </div>
-  </Fragment>    
+      <Header />
+     <Landing />
+      </Fragment>    
+      </Router>
   )
 }
 

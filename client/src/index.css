@@ -1,3 +1,18 @@
 * {
-  align-content: center;
+  text-align: center;
+}
+
+.Nav {
+  background-color: black;
+}
+
+#Landing {
+  background-image: url('./assets/img/news_image.jpg');
+  height: 1024px;
+  width: 1024px;
+  background-size: cover;
+}
+
+.master {
+  background-color: black;
 }
