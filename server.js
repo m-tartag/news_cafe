@@ -20,8 +20,10 @@ app.use(express.json({ extended: false }));
 
 // Default / Port
 app.get('/', (req, res) => {
-  res.send('API Connectefdhjsdfhgsdd');
+  res.send('API Connected');
 });
+// Routes
+app.use('/api/events', require('./routes/api/events'));
 
 app.listen(PORT, () =>
   console.log(chalk.blue.inverse(`Server Connected [Port: ${PORT}])`))
