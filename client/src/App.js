@@ -1,13 +1,13 @@
 import React, { Fragment } from 'react';
-import './App.css';
 
-function App() {
+const App = () => {
   return (
-    <div>
-      <h1 className="title">Welcome</h1>
-      <div className="jumbotron">Hello</div>
-    </div>
-  );
+    <Fragment>
+      <div>
+        <h1>News</h1>
+      </div>
+  </Fragment>    
+  )
 }
 
 export default App;

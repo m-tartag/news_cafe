@@ -1,2 +1,4 @@
 node_modules
 default.json
+credentials.json
+token.json
